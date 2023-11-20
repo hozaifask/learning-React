@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Funcomp from './Funcomp';
-import Classcomp from './Classcomp';
+// import Funcomp from './Funcomp';
+// import Classcomp from './Classcomp';
+import Event from './Event';
 function App() {
   return (
     <div className="App">
-      <Funcomp></Funcomp>
-      <Classcomp></Classcomp>
+      <Event></Event>
+      {/* <Funcomp></Funcomp>
+      <Classcomp></Classcomp> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
