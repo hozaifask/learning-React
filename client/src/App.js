@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 // import Funcomp from './Funcomp';
 // import Classcomp from './Classcomp';
-import Event from './Event';
+// import Event from './Event';
 function App() {
   return (
     <div className="App">
-      <Event></Event>
+      {/* <Event></Event> */}
       {/* <Funcomp></Funcomp>
       <Classcomp></Classcomp> */}
       {/* <header className="App-header">
