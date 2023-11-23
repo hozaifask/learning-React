@@ -1,4 +1,4 @@
-// function Funcomp ()
+// function Funcomp()
 // {
 //     return(
 //         <h1>Hello World</h1> 
