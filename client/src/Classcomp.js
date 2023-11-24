@@ -4,7 +4,7 @@
 //     render()
 //         {
 //         return(
-//                 <h1>Hello from class component</h1>
+//                 <h1>Hello  this is a example of class component</h1>
 //             )
 //         }
 // }
