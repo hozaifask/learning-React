@@ -3,26 +3,16 @@ import './App.css';
 // import Funcomp from './Funcomp';
 // import Classcomp from './Classcomp';
 // import Event from './Event';
+import react,{useState} from react;
+import  Student from "./Student"
 function App() {
+  const[name,setName]=useState("amit");
   return (
     <div className="App">
-      {/* <Event></Event> */}
-      {/* <Funcomp></Funcomp>
-      <Classcomp></Classcomp> */}
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      <h1>Props in React</h1>
+      <student name={name}/>
+
+     
     </div>
   );
 }
