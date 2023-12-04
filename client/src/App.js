@@ -3,14 +3,16 @@ import './App.css';
 // import Funcomp from './Funcomp';
 // import Classcomp from './Classcomp';
 // import Event from './Event';
-import react,{useState} from react;
+import react,{useState} from 'react';
 import  Student from "./Student"
 function App() {
-  const[name,setName]=useState("amit");
+  const[name,setName]=useState("shaikh");
+
   return (
     <div className="App">
       <h1>Props in React</h1>
-      <student name={name}/>
+      <Student name={name}/>
+      <button onClick={()=>{setName("Hozaifa")}}>click here to update</button>
 
      
     </div>

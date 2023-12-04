@@ -1,4 +1,4 @@
-Function Student(props){
+function Student(props){
     console.log(props)
     return(
         <h1>hello {props.name} </h1>
