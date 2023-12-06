@@ -5,7 +5,8 @@ import './App.css';
 // import Event from './Event';
 // import Form from "./Form";
 // import  Student from "./Student"
-import Toggle from './Toggle';
+// import Toggle from './Toggle';
+import Profile from './Profile'
 function App() {
  
 
@@ -13,7 +14,8 @@ function App() {
   return (
     <div className="App">
       {/* <Form></Form> */}
-      <Toggle></Toggle>
+      {/* <Toggle></Toggle> */}
+      <Profile></Profile>
 
     
     
