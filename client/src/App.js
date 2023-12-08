@@ -6,7 +6,8 @@ import './App.css';
 // import Form from "./Form";
 // import  Student from "./Student"
 // import Toggle from './Toggle';
-import Profile from './Profile'
+// import Profile from './Profile'
+
 function App() {
  
 
