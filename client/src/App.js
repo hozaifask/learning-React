@@ -4,9 +4,9 @@ import './App.css';
 // import Classcomp from './Classcomp';
 // import Event from './Event';
 // import Form from "./Form";
-// import  Student from "./Student"
+// import  Student from "./Student";
 // import Toggle from './Toggle';
-// import Profile from './Profile'
+// import Profile from './Profile';
 
 function App() {
  
