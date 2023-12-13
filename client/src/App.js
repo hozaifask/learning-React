@@ -7,6 +7,7 @@ import './App.css';
 // import  Student from "./Student";
 // import Toggle from './Toggle';
 // import Profile from './Profile';
+import Getvalue from './Getvalue';
 
 function App() {
  
@@ -16,7 +17,8 @@ function App() {
     <div className="App">
       {/* <Form></Form> */}
       {/* <Toggle></Toggle> */}
-      <Profile></Profile>
+      {/* <Profile></Profile> */}
+      <Getvalue></Getvalue>
 
     
     
