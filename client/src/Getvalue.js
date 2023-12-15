@@ -15,7 +15,7 @@ function getData(val){
                 :null
             }
         <input type="text"  onChange={getData}/>
-       <button onClick={()=>setPrint(true)}>Click here to print data</button> 
+       <button onClick={()=>setPrint(true)}> print data</button> 
         </div>
         
         
