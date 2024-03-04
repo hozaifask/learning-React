@@ -1,13 +1,36 @@
-// function Event (){
-//     function apple()
-//     {
-//         alert("Function Called")
+import React, { useState } from 'react';
+
+function Event (){
+    const[data,setData]=useState(0);
+  
+    function apple()
+    {
+         setData(data+1)
+        
+    }
+    return (
+        <div className="App">
+            <h1>{data}</h1>
+            <button onClick={apple}>Click me</button>
+        </div>    
+        );
+}
+export default Event;
+// import React, { useState } from 'react';
+
+// function Event() {
+//     const [data, setData] = useState(0);
+
+//     function apple() {
+//         setData(data + 1);
 //     }
+
 //     return (
 //         <div className="App">
-//             <h1>Hello World</h1>
+//             <h1>{data}</h1>
 //             <button onClick={apple}>Click me</button>
-//         </div>    
-//         );
+//         </div>
+//     );
 // }
+
 // export default Event;
