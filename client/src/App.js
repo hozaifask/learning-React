@@ -3,9 +3,9 @@ import './App.css';
 import Eents from './Eents';
 // import Funcomp from './Funcomp';
 // import Classcomp from './Classcomp';
-import Event from './Event';
+// import Event from './Event';
 // import Form from "./Form";
-// import  Student from "./Student";
+import  Student from "./Student";
 // import Toggle from './Toggle';
 // import Profile from './Profile';
 // import Getvalue from './Getvalue';
@@ -20,8 +20,9 @@ function App() {
       {/* <Toggle></Toggle> */}
       {/* <Profile></Profile> */}
       {/* <Getvalue></Getvalue> */}
-      <Event></Event>
-      <Eents></Eents>
+      {/* <Event></Event> */}
+      <Student name="anil" />
+      {/* <Eents></Eents> */}
 
     
     
