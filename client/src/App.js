@@ -16,12 +16,14 @@ function App() {
 
   return (
     <div className="App">
+      <h1> props in react</h1>
       {/* <Form></Form> */}
       {/* <Toggle></Toggle> */}
       {/* <Profile></Profile> */}
       {/* <Getvalue></Getvalue> */}
       {/* <Event></Event> */}
-      <Student name="anil" />
+      <Student name="Hozaifa Shaikh" email="hozaifask463@gmil.com" address="Mumbai" />
+      {/* <Student name="shadab Shaikh" email="shadabsk463@gmil.com" address="navi mumbai" />       */}
       {/* <Eents></Eents> */}
 
     
